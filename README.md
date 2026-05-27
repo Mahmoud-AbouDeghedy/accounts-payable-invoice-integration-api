@@ -1,8 +1,8 @@
-# AP Invoice Integration API
+# Accounts Payable Invoice Integration API
 
 A FastAPI integration layer for synchronizing ERP master data and invoice records into an accounts payable automation workflow.
 
-The project focuses on API reliability, idempotent sync behavior, referential integrity, VAT validation, and structured audit-friendly logging. It is a compact backend project that mirrors the kind of service used between finance systems, ERP platforms, and AP automation tools.
+The project focuses on API reliability, idempotent sync behavior, referential integrity, VAT validation, and structured audit-friendly logging. It is a compact backend project that mirrors the kind of service used between finance systems, ERP platforms, and Accounts Payable automation tools.
 
 ## Features
 
@@ -98,7 +98,7 @@ Create a `.env` file:
 ```env
 DATABASE_URL=sqlite:///./ap_entries.db
 LOG_LEVEL=INFO
-APP_NAME=AP Invoice Integration API
+APP_NAME=Accounts Payable Invoice Integration API
 APP_VERSION=1.0.0
 ```
 
